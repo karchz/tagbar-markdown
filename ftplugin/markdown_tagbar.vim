@@ -16,6 +16,7 @@ command! -nargs=0 MDAgenda call s:insertAgenda()
 
 let g:tagbar_type_markdown = {
     \ 'ctagsbin'  : s:bin_path,
+    \ 'sort'      : 0,
     \ 'ctagsargs' : '',
     \ 'kinds'     : [
     \     'a:h1:0:0',
