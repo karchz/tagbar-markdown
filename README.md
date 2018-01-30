@@ -10,7 +10,7 @@ tagbar-markdown is a tagbar extension for markdown.
 - [vim-plug]
 ```viml
 Plug 'majutsushi/tagbar'
-Plug 'lvht/tagbar-markdown'
+Plug 'karchz/tagbar-markdown'
 ```
 - Use [dein.vim] to lazy load plugin, and check the requirements.
 ```viml
